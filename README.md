@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Auto News Generator
 
 ## Description
@@ -42,3 +43,59 @@ Make sure to handle your OpenAI API key securely and abide by OpenAI's usage pol
 ## License
 
 This plugin is licensed under the GPLv2 or later.
+=======
+# Bing News Scraper
+
+## Descripción
+
+El **Bing News Scraper** es un plugin de WordPress que automáticamente extrae y genera posts basados en noticias de Bing News. Este plugin permite a los usuarios crear contenido relevante y actualizado simplemente ingresando palabras clave, y automáticamente extrae noticias completas en español.
+
+## Características
+
+- Búsqueda automática de noticias en Bing News basada en palabras clave
+- Extracción completa del contenido de las noticias
+- Filtrado automático para noticias solo en español
+- Límite de 3 noticias por búsqueda para mantener la relevancia
+- Creación automática de borradores en WordPress
+- Interfaz simple y fácil de usar
+- Limpieza y formateo automático del contenido
+- Preservación de la fuente original
+
+## Instalación
+
+1. Descarga los archivos del plugin
+2. Sube el directorio `bing-news-scraper` a tu carpeta `/wp-content/plugins/`
+3. Activa el plugin desde el menú 'Plugins' en WordPress
+4. Asegúrate de que el archivo `simple_html_dom.php` está presente en el directorio del plugin
+
+## Uso
+
+1. Ve a "Bing News Scraper" en el menú de administración de WordPress
+2. Ingresa una palabra clave en el campo de búsqueda
+3. Haz clic en "Buscar Noticias"
+4. El plugin creará automáticamente hasta 3 borradores de posts con las noticias encontradas
+5. Revisa y edita los borradores antes de publicarlos
+
+## Requisitos
+
+- WordPress 5.0 o superior
+- PHP 7.4 o superior
+- Acceso a Internet para conectar con Bing News
+- Archivo simple_html_dom.php
+- Permisos de administrador en WordPress
+
+## Notas Importantes
+
+- El plugin respeta las fuentes originales incluyendo enlaces a las noticias
+- Solo extrae noticias en español
+- Crea los posts como borradores para revisión manual
+- Realiza limpieza automática de contenido publicitario y elementos no deseados
+
+## Autor
+
+**Alexis Olivero**
+
+## Licencia
+
+Este plugin está licenciado bajo GPLv2 o posterior.
+>>>>>>> 10551dc (Se oriento todo este plugin a la version de scrapper para evitar usar APIS de IA para extraer o generar las noticias)
