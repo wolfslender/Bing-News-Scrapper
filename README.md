@@ -1,64 +1,64 @@
 # Bing News Scraper
 
-Plugin de WordPress que permite buscar y extraer automáticamente noticias desde Bing News basadas en palabras clave específicas.
+WordPress plugin that automatically searches and extracts news from Bing News based on specific keywords.
 
-## Características
+## Features
 
-- Búsqueda de noticias por palabras clave en Bing News
-- Extracción automática del contenido de los artículos
-- Creación de borradores de posts con el contenido extraído
-- Interfaz simple y fácil de usar en el panel de administración
-- Límite de 3 artículos por búsqueda para evitar sobrecarga
+- Search news by keywords on Bing News
+- Automatic extraction of article content
+- Creation of post drafts with extracted content
+- Simple and easy-to-use admin panel interface
+- Limit of 3 articles per search to avoid overload
 
-## Requisitos
+## Requirements
 
-- WordPress 5.0 o superior
-- PHP 7.2 o superior
-- Biblioteca Simple HTML DOM (incluida)
+- WordPress 5.0 or higher
+- PHP 7.2 or higher
+- Simple HTML DOM library (included)
 
-## Instalación
+## Installation
 
-1. Descarga el archivo ZIP del plugin
-2. Ve a tu panel de WordPress > Plugins > Añadir nuevo
-3. Haz clic en "Subir Plugin" y selecciona el archivo ZIP
-4. Activa el plugin
+1. Download the plugin ZIP file
+2. Go to your WordPress dashboard > Plugins > Add New
+3. Click on "Upload Plugin" and select the ZIP file
+4. Activate the plugin
 
-## Uso
+## Usage
 
-1. Ve a "Bing News Scraper" en el menú lateral del panel de administración
-2. Ingresa una palabra clave en el campo de búsqueda
-3. Haz clic en "Buscar Noticias"
-4. El plugin creará automáticamente borradores con las noticias encontradas
-5. Revisa y edita los borradores antes de publicarlos
+1. Go to "Bing News Scraper" in the admin panel sidebar
+2. Enter a keyword in the search field
+3. Click on "Search News"
+4. The plugin will automatically create drafts with the found news
+5. Review and edit the drafts before publishing
 
-## Estructura del Contenido Extraído
+## Extracted Content Structure
 
-Cada borrador creado incluirá:
-- Título de la noticia
-- Fecha de publicación
-- Extracto de la noticia
-- Contenido principal
-- Enlace a la fuente original
+Each created draft will include:
+- News title
+- Publication date
+- News excerpt
+- Main content
+- Link to original source
 
-## Notas Importantes
+## Important Notes
 
-- Los artículos se crean como borradores para permitir su revisión
-- Se conservan los enlaces a las fuentes originales
-- El contenido extraído se limpia automáticamente de publicidad y elementos no deseados
-- Se recomienda revisar y editar el contenido antes de publicar
+- Articles are created as drafts to allow review
+- Original source links are preserved
+- Extracted content is automatically cleaned from ads and unwanted elements
+- It is recommended to review and edit content before publishing
 
-## Solución de Problemas
+## Troubleshooting
 
-Si encuentras algún error:
-1. Verifica que simple_html_dom.php esté presente en el directorio del plugin
-2. Asegúrate de tener permisos de escritura en la base de datos
-3. Revisa los logs de error de WordPress para más detalles
+If you encounter any errors:
+1. Verify that simple_html_dom.php is present in the plugin directory
+2. Make sure you have database write permissions
+3. Check WordPress error logs for more details
 
-## Soporte
+## Support
 
-Para soporte técnico o reportar problemas, por favor contacta a:
+For technical support or to report issues, please contact:
 [oliverodev.com](https://oliverodev.com.com)
 
-## Licencia
+## License
 
-Este plugin es software libre y viene sin garantías.
+This plugin is free software and comes with no warranties.
